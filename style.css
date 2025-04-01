@@ -1,0 +1,556 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #0077cc;
+}
+
+
+header {
+    text-align: center;
+    color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+.gallery-title {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.quality-education-logo {
+    height: 100px;
+}
+
+.home-page-mission {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mission-paragraph {
+    font-size: 17px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card  {
+    height: 420px;
+    width: 300px;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-content h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.card-content p {
+    color:#666;
+    font-size: 15px;
+    line-height: 1.3;
+    text-align: left;
+}
+
+.card-content .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 5px;
+    color: #fff;
+    transition: background-color 0.4s ease, transform 0.2s ease;
+}
+
+.card-content .btn:hover {
+    background-color: #333;
+    transform: scale(1.05); /* Scale effect when hovering */
+}
+
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #0077cc;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.quality-education-title {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.quality-education-content, .digital-literacy-content, .stem-education-content, .teacher-training-content, .inclusive-training-content{
+    color: black;
+    margin-top: 30px;
+    margin-left: 2.5rem;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.key-principles p, .encourage, .teacher-training-paragraph, .teacher-training-paragraph, .inclusive-education-paragraph {
+    text-align: right;
+    margin-left: 2.5rem;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;    
+}
+
+
+.love-to-learn {
+    max-width: 100%;
+    height: auto;
+    height: 300px;
+    width: 700px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Soft Shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.stem-image {
+    max-width: 100%;
+    height: auto;
+    height: 300px;
+    width: 700px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Soft Shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.teacher-training-image {
+    max-width: 100%;
+    height: auto;
+    height: 300px;
+    width: 700px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Soft Shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.inclusive-education-image {
+    max-width: 100%;
+    height: auto;
+    height: 300px;
+    width: 700px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Soft Shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.love-to-learn:hover {
+    transform: scale(1.05); /* Slightly enlarges the image when hovering over it */
+    box-shadow: 10px 10px 20px rgba(0,0,0,0,0.3); /* Stronger shadow when hovering */
+}
+
+.content-paragraph{
+    margin-top: 10px;
+}
+
+.key-principles p{
+    margin-right: 10px;
+}
+
+
+p {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+}
+
+main {
+    padding-bottom: 100px; /* Adds space above the footer */
+}
+
+footer {
+    background-color: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* General Buttons on your pages */
+button {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+
+/* Table Styling */
+
+/* Reference: https://adrianroselli.com/2017/11/a-responsive-accessible-table.html */
+
+table {
+    width: 70%;
+    background: black;
+    color:white;
+    border-collapse: collapse;
+    align-items: center;
+    margin-top: 30px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+th,
+td {
+    padding: 1rem;
+    align-items: left;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px;
+    border: 3px solid #ddd;
+    font-size: 30px;
+    background-color: black;
+}
+
+.program-row {
+    background-color: lightgray;
+    color: black;
+}
+
+.target-row {
+    background-color: lightgray;
+    color: black;
+}
+
+.duration-row {
+    background-color: lightgray;
+    color: black;
+}
+
+
+.completion-row {
+    background-color: lightgray;
+    color: black;
+}
+
+.stem-row {
+    background-color: lightgray;
+    color: black;
+    text-decoration: none;
+}
+
+.stem-row a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+.digital-row a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.inclusive-row a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+.education-row a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+.vocational-row a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+.community-row a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+.teacher-row a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+.global-row a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+.female-row {
+    background-color: lightgray;
+    color: black;
+}
+
+.year-row {
+    background-color: lightgray;
+    color: black;
+}
+
+
+.number-78-row, .inclusive-row, .disabilities-row, .ongoing-row, .number-95-row,
+.education-row, .audience-row, .paced-row, .community-row, .local-row, .number-9-row,
+.number-88-row
+ {
+    background-color: lightgray;
+    color: black;
+}
+
+.table-container {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-container .tooltip-text {
+    visibility: hidden;
+    background-color: black;
+    text-align: center;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 120%; /* Places the tooltips above the icons */
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Showing the tooltip when hovering over the */
+.tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+
+}
+
+
+caption {
+    background: hsl(0%, 0%, 0%);
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.icon-tick {
+    color: green;
+    font-weight: bold;
+}
+
+.table-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-items: center;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+.table-logo a::before {
+    content: 'Quality Education';
+}
+
+
+
+.target-group {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.duration-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.completion-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-items: center;
+    cursor: pointer;
+
+    
+}
+
+th img.table-logo {
+    display: block;
+    margin: 0 auto;
+    
+}
+
+/* Hover Effect for Table Rows */
+td:hover {
+    background-color: #0077cc;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Content Page Styling */
+/* GO TO TOP BUTTON */
+
+.go-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0077cc;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+
+.go-to-top span {
+    color: white;
+    font-size: 3rem;
+    transition: 0.2 ease-out;
+}
+
+.go-to-top :hover {
+    background-color: #be1a3b;
+}
+
+.go-to-top :hover span {
+    background-color: #be1a3b;
+    transform: translateY(-4px);
+}
+
+.sidebar {
+    position: fixed;
+    top: 200px;
+    right: 10px;
+    width: 300px;
+    background: #0077cc;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    max-height: 400px;
+    overflow-y: auto;
+    width: auto;
+    white-space: nowrap;
+    
+    
+}
+
+.sidebar h3{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 1.5;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media(max-width:768px) {
+    .photo-gallery {
+        flex-direction: column;
+        td {
+            display: flex;
+        }
+    }
+}

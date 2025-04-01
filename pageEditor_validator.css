@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+.quality-education-logo-editor {
+    height: 100px;
+
+}
+
+#home-introduction {
+    margin-top: 10px;
+}
+
+.home-page-explanation {
+    margin-bottom: 10px;
+}
+
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.validation-logo {
+    height: 100px;
+
+}
+
+
+h1, h2, h3 {
+    font-weight: bold;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #0077cc;
+}
+
+.name {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#home, #table, #content {
+    text-align: center;
+} 
+
+#table-introduction {
+    margin-top: 10px;
+}
+
+.header-title {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.content-validation-image, .table-validation-image {
+    height: 400px;
+    width: 400px;
+}
+
+.stud h2 {
+    text-align: center;
+    background-color: #0077cc;
+    color: white;
+}
+
+.contentval-report-section {
+    border: 2px solid #000;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.contentval-report-section h3, a, p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+
+
+
+/* General Buttons on your pages */
+button {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+.validation-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0077cc;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+
+.validation-top span {
+    color: white;
+    font-size: 3rem;
+    transition: 0.2 ease-out;
+}
+
+.validation-top :hover {
+    background-color: #be1a3b;
+}
+
+.validation-top :hover span {
+    background-color: #be1a3b;
+    transform: translateY(-4px);
+}
+
+.aside {
+    position: fixed;
+    top: 400px;
+    right: 20px;
+    width: 400px;
+    background: black;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+#role {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pageEditor-home-section, .pageEditor-table-section, .pageEditor-content-section {
+    border: 2px solid #000;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+.structure-home-page {
+    margin-bottom: 20px;
+
+}
+
+.home-page-accessibility, .table-page-accessibility {
+    margin-top: 10px;
+}
+
+.aside h3{
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.top-level-ul a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    line-height: 1.5;
+}
