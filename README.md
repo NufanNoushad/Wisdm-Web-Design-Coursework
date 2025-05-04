@@ -1,6 +1,6 @@
 **Wisdm Quality Education Website
 
-**Project Overview***
+**Project Overview**
 The Wisdm Quality Education Website is a web design project created for my coursework submission. This project aims to showcase the educational services offered by Wisdm Quality Education in a clean, professional, and responsive manner. Built with HTML and CSS, the website provides users with a seamless navigation experience across different pages including the homepage, about page, and contact page.
 
 This project demonstrates my ability to create user-friendly websites, paying attention to details such as design aesthetics, functionality, and mobile responsiveness.
